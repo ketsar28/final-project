@@ -1,0 +1,6 @@
+mysqli_fetch_assoc() // array associative  (recomended) 
+mysqli_fetch_rows() // array numerik
+mysqli_fetch_array() // keduanya, namun dibuat secara duplicated
+mysqli_fetch_object() // array bentuk object
+
+mysqli_affected_rows() // ada perubahan data bernilai: 1, ada error bernilai ; -1
